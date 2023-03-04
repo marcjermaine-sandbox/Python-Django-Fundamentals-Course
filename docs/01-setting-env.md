@@ -22,6 +22,24 @@ pip install Django
 
 ## Creating a Django Project
 
+```sh
+django-admin startproject <project-name> .
 ```
-django-admin startproject core .
+
+## Running a local server
+```sh
+python manage.py runserver
 ```
+
+```sh
+python manage.py makemigrations
+python manage.py migrate
+```
+
+## Creating a Django Application
+
+```sh
+python manage.py startapp <app-name>
+```
+
+--- 13/67
